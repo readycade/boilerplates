@@ -14,7 +14,6 @@ I created these free resources to be used in your specific use cases. If you're 
 ## Other Resources
 - [Boilerplates](https://github.com/dockercompose-man/boilerplates) - Configuration/Installation files for various applications
 - [Cheat-Sheets](https://github.com/dockercompose-man/essentialeducation) - Command Reference for various tools and technologies
-- [Public Notes](https://github.com/dockercompose-man/obsidian_public) - Obsidian Public Notes
 
 ## Contribution
 
