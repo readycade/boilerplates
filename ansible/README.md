@@ -13,7 +13,7 @@ Ansible is a modern configuration management tool that facilitates the task of s
   Role: a collection of playbooks and other files that are relevant to a goal such as installing a web server.
   Play: a full Ansible run. A play can have several playbooks and roles, included from a single playbook that acts as entry point.
 
-Testing Connectivity to Nodes
+#### Testing Connectivity to Nodes
 
 To test that Ansible is able to connect and run commands and playbooks on your nodes, you can use the following command:
 
