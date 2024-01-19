@@ -27,7 +27,7 @@ The same is valid for ansible-playbook:
 
     ansible-playbook myplaybook.yml -u sammy
 
-Using a Custom SSH Key
+#### Using a Custom SSH Key
 
 If you’re using a custom SSH key to connect to the remote servers, you can provide it at execution time with the --private-key option:
 
@@ -37,7 +37,7 @@ This option is also valid for ansible-playbook:
 
     ansible-playbook myplaybook.yml --private-key=~/.ssh/custom_id
 
-Using Password-Based Authentication
+#### Using Password-Based Authentication
 
 If you need to use password-based authentication in order to connect to the nodes, you need to append the option --ask-pass to your Ansible command.
 
@@ -49,7 +49,7 @@ This option is also valid for ansible-playbook:
 
     ansible-playbook myplaybook.yml --ask-pass
 
-Providing the sudo Password
+#### Providing the sudo Password
 
 If the remote user needs to provide a password in order to run sudo commands, you can include the option --ask-become-pass to your Ansible command. This will prompt you to provide the remote user sudo password:
 
@@ -59,7 +59,7 @@ This option is also valid for ansible-playbook:
 
     ansible-playbook myplaybook.yml --ask-become-pass
 
-Using a Custom Inventory File
+#### Using a Custom Inventory File
 
 The default inventory file is typically located at /etc/ansible/hosts, but you can also use the -i option to point to custom inventory files when running Ansible commands and playbooks. Ansible also supports inventory scripts for building dynamic inventory files, for when your inventory fluctuates, with servers being created and destroyed often. Custom inventory files are useful for setting up per-project inventories that can be included in version control systems such as Git:
 
@@ -69,7 +69,7 @@ The same option is valid for ansible-playbook:
 
     ansible-playbook myplaybook.yml -i my_custom_inventory
 
-Running ad-hoc Commands
+#### Running ad-hoc Commands
 
 To execute a command on a node, use the -a option followed by the command you want to run, in quotes.
 
@@ -85,7 +85,7 @@ Before making changes to your nodes, you can conduct a dry run to predict how th
 
     ansible server1 -m apt -a "name=vim" --check
 
-Running Playbooks
+#### Running Playbooks
 
 To run a playbook and execute all the tasks defined within it, use the ansible-playbook command:
 
@@ -95,7 +95,7 @@ To overwrite the default hosts option in the playbook and limit execution to a c
 
     ansible-playbook -l server1 myplaybook.yml
 
-Getting Information about a Play
+#### Getting Information about a Play
 
 The option --list-tasks is used to list all tasks that would be executed by a play without making any changes to the remote servers:
 
@@ -109,7 +109,7 @@ You can use tags to limit the execution of a play. To list all tags available in
 
     ansible-playbook myplaybook.yml --list-tags
 
-Controlling Playbook Execution
+#### Controlling Playbook Execution
 
 You can use the option --start-at-task to define a new entry point for your playbook. Ansible will then skip anything that comes before the specified task, executing the remaining of the play from that point on. This option requires a valid task name as argument:
 
@@ -123,7 +123,7 @@ If you want to skip all tasks that are under specific tags, use --skip-tags. The
 
     ansible-playbook myplaybook.yml --skip-tags=mysql
 
-Using Ansible Vault to Store Sensitive Data
+#### Using Ansible Vault to Store Sensitive Data
 
 If your Ansible playbooks deal with sensitive data like passwords, API keys, and credentials, it is important to keep that data safe by using an encryption mechanism. Ansible provides ansible-vault to encrypt files and variables.
 
@@ -140,7 +140,7 @@ This command will perform the following actions:
     Next, it will open your default command-line editor so you can populate the file with the desired contents.
     Finally, when you’re done editing, ansible-vault will save the file as encrypted data.
 
-Encrypting an Existing Ansible File
+#### Encrypting an Existing Ansible File
 
 To encrypt an existing Ansible file, you can use the following syntax:
 
@@ -186,7 +186,7 @@ Now to view, edit, or decrypt these files, you’ll need to provide the same vau
 
     ansible-vault edit credentials_dev.yml --vault-id dev@prompt
 
-Using a Password File
+#### Using a Password File
 
 If you need to automate the process of provisioning servers with Ansible using a third-party tool, you’ll need a way to provide the vault password without being prompted for it. You can do that by using a password file with ansible-vault.
 
@@ -223,7 +223,7 @@ If your play uses multiple vaults, you should provide a --vault-id parameter for
 
     ansible-playbook myplaybook.yml --vault-id dev@vault_password.py --vault-id test@prompt --vault-id ci@prompt
 
-Debugging
+### Debugging
 
 If you run into errors while executing Ansible commands and playbooks, it’s a good idea to increase output verbosity in order to get more information about the problem. You can do that by including the -v option to the command:
 
@@ -233,7 +233,7 @@ If you need more detail, you can use -vvv and this will increase verbosity of th
 
     ansible-playbook myplaybook.yml -vvvv
 
-Conclusion
+### Conclusion
 
 This guide covers some of the most common Ansible commands you may use when provisioning servers, such as how to execute remote commands on your nodes and how to run playbooks using a variety of custom settings.
 
