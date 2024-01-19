@@ -241,10 +241,3 @@ There are other command variations and flags that you may find useful for your A
 
     ansible  --help
 
-If you want a more comprehensive view of Ansible and all its available commands and features, please refer to the official Ansible documentation.
-
-If you want to see another practical example of Ansible, check out our guide on How to Use Ansible to Install and Set Up Docker on Ubuntu 20.04.
-
-Thanks for learning with the DigitalOcean Community. Check out our offerings for compute, storage, networking, and managed databases.
-
-Learn more about us
