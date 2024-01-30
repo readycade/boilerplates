@@ -6,10 +6,17 @@ I created these free resources to be used in your specific use cases. If you're 
 
 > ⚠️ Be aware, products can change over time. I do my best to keep up with the latest changes and releases, but please understand that this won’t always be the case.
 
-## Readystream version 1.0.0
-- [Readystream](https://github.com/dockercompose-man/readystream) - Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games.
+## Readycade Companion Applications 1.0.0 (Proprietary)
+- [Readycade Configs](https://github.com/dockercompose-man/readycade_configs) - This is what separates the boys from the men. A complete arcade setup in under 5 minutes!
+- [Readycade Media Packs](https://github.com/dockercompose-man/readycade_media) - Get your Consoles and Systems up and running in minutes with Ready Media Packs!
+
+## Readycade OTHER Applications(Open Source GPLv3)
+
 - [Readybios](https://github.com/dockercompose-man/readybios) - A drag and drop solution to install Bios files to Recalbox.
 - [Readyroms](https://github.com/dockercompose-man/readyroms) - A drag and drop solution to install Rom files to Recalbox.
+ 
+## Readysync version 1.0.0 (Compatible with Readycade)
+- [Readysync](https://github.com/dockercompose-man/readysync) - Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games.
 
 ## Other Resources
 - [Boilerplates](https://github.com/dockercompose-man/boilerplates) - Configuration/Installation files for various applications
