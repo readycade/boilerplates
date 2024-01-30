@@ -8,12 +8,12 @@ I created these free resources to be used in your specific use cases. If you're 
 
 ## Readycade Companion Applications (Proprietary)
 - [Readycade Configs](https://github.com/dockercompose-man/readycade_configs) - This is what separates the boys from the men. A complete arcade setup in under 5 minutes!
-- [Readycade Media Packs](https://github.com/dockercompose-man/readycade_media) - Get your Consoles and Systems up and running in minutes with Ready Media Packs!
+- [Readycade Media Packs Installer](https://github.com/dockercompose-man/readycade_media) - Get your Consoles and Systems up and running in minutes with Ready Media Packs!
 
 ## Readycade OTHER Applications (Open Source GPLv3)
 
-- [Readybios](https://github.com/dockercompose-man/readybios) - Select your Bios Pack and Install to Readycade (Recalbox).
-- [Readyroms](https://github.com/dockercompose-man/readyroms) - Select your Rom Pack and Install to Readycade (Recalbox).
+- [Readycade Bios Packs Installer](https://github.com/dockercompose-man/readybios) - Select your Bios Pack and Install to Readycade (Recalbox).
+- [Readycade Rom Packs Installer](https://github.com/dockercompose-man/readyroms) - Select your Rom Pack and Install to Readycade (Recalbox).
  
 ## Readysync version 1.0.0 (Compatible with Readycade)
 - [Readysync](https://github.com/dockercompose-man/readysync) - Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games.
