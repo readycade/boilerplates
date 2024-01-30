@@ -12,8 +12,8 @@ I created these free resources to be used in your specific use cases. If you're 
 
 ## Readycade OTHER Applications(Open Source GPLv3)
 
-- [Readybios](https://github.com/dockercompose-man/readybios) - A drag and drop solution to install Bios files to Recalbox.
-- [Readyroms](https://github.com/dockercompose-man/readyroms) - A drag and drop solution to install Rom files to Recalbox.
+- [Readybios](https://github.com/dockercompose-man/readybios) - Select your Bios Pack and Install to Readycade (Recalbox).
+- [Readyroms](https://github.com/dockercompose-man/readyroms) - Select your Rom Pack and Install to Readycade (Recalbox).
  
 ## Readysync version 1.0.0 (Compatible with Readycade)
 - [Readysync](https://github.com/dockercompose-man/readysync) - Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games.
