@@ -2,7 +2,7 @@ Hi, there! 👋
 
 I’m Michael, a 37-year-old tech enthusiast from Canada, and I love to inspire and educate people in IT.
 
-I created these free resources to be used in your specific use cases. If you're searching for detailed, in-depth tutorials on some tools or technologies, check out my Website: [Orangefarm](https://home.orangefarm.ca)
+I created these closed and open sourced free resources to be used in your specific use cases. If you're searching for detailed, in-depth tutorials on some tools or technologies, check out my Website: [Readycade](https://readycade.com)
 
 > ⚠️ Be aware, products can change over time. I do my best to keep up with the latest changes and releases, but please understand that this won’t always be the case.
 
